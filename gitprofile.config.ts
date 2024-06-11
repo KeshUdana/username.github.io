@@ -14,18 +14,23 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['dfanso/MatLab_Coursework'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'DFanso/QuickQuest',
+          'DFanso/cine-magic-cinema',
+          'DFanso/B2B_Portal',
+          'DFanso/spring-boot-jwt-auth-api',
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,20 +38,19 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Quick Quest',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'A platform connecting customers with laborers based on location and service needs. It uses MongoDB for geospatial queries and SSE for real-time chat. Technologies: Nest.js, Next.js, Python, MongoDB, Docker, AWS, PayPal.',
+          imageUrl: 'https://dfanso.s3.ap-southeast-1.amazonaws.com/Frame%201474.ico?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEL3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkgwRgIhALMwt%2FxRksZ6KqICAuIpEtRVFzCiJk3PiDuIUH8D8kzLAiEAzNjP8SCOBph7YPtYDxxouetKkngtreHHuJuhlH6ztkAq5AIIVhACGgw3MjE5NDQ2OTcwMzEiDLwKXquu254RpITukCrBAtC6HK6Shi3XE%2BqtEF%2FcMA2Avs2za3zwVjvcbUhoyi1WiLCZhxMZSzqJahAzbxO034B1cmLDg51uS7E%2FfVOfCiPcSE4DBO8YlKBp%2FI1iuYqyrECXC9AFwbFObTOAi7LRkXfptM9x2DXwZaI5PNTI7mj7o5q4apTOvc4AOJvztJjDFmynKKqbYMRqvECfpaWns%2FqETDvJr9u6yzpnjE09rLUrFVUzHcjaAtPzMCzerISXPBjLkMLFMnAV2uFGx5qQvHN8VHMQx7GxTm8ZyVrrRDdQwAfZO8fAAUkbGKyuSkC0ZhI13CbjAtRWRuhw6MS%2Bab0PFDuIcdB%2B6PaxjCcNlTIKD%2B%2B0OKRdL5jpdkuE1wo5JXgGWeMPKDCyJ%2FiwobJELbkXAf5P5kUVB3Ymf8glgvmU1LPv9mBeg%2Fje%2BhfUR3tC2jCNuZ%2BzBjqyAhLOZzTWn4mMgorp%2FgE38bcMhw%2BZicubXHsewD4TJp5DgrMoYPOn%2FkIvCY5VFyCwQ51FU8%2FI8lDSYKbOYwAs5vSBnpaJaDOxyeL41vzH70NAvfAV%2FchdM8Z9GaQIuq6k0pBcEoF0yhMfy0SnKlqPmKehSWD2g%2B1BA68LQC27XfQUrK6e96G2%2B%2FOutl%2Fp1KLSRdi7%2BM%2BFRmky76gMYyPbpZXHP1Etthdxhdqy4ntHTum6GWu7DdkoCovXk6%2FCxJ7H%2BqK2CTiXMFCaYP0HyXMvEeTgsWYziszxSn16o1i5CfAZSHK%2BtVWKCR75vmUumjT9%2Fgvg9rHYUP1jWvPSto7X8cFFcPnxqk%2B1UG6x2GSCjPFHl11U%2BJq5kAq85QJfuSi6ih1Drw5hj7NWmlePrNPhOoNc4Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240611T054626Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA2QF2B3DDUYZBHAGQ%2F20240611%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Signature=3b7e081761e2a473f591f7251bcb645280c52bd26ec83c12ffc3fbb14a75a300',
+          link: 'DFanso/QuickQuest',
         },
         {
-          title: 'Project Name',
+          title: 'techxeed',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A platform to hire Developers. Made Using Next.js,Nest.js, Stripe for Payment handling and subscription handling.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://techxeed-frontend.vercel.app/_next/static/media/logo.2f950c74.svg',
+          link: 'https://techxeed-frontend.vercel.app/',
         },
       ],
     },
@@ -79,7 +83,7 @@ const CONFIG = {
     email: 'leogavin123@outlook.com',
   },
   resume: {
-    fileUrl: 'https://dfanso.s3.ap-southeast-1.amazonaws.com/Leo+Gavin.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://dfanso.s3.ap-southeast-1.amazonaws.com/Leo%20Gavin.pdf?response-content-disposition=attachment&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEL3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkgwRgIhALMwt%2FxRksZ6KqICAuIpEtRVFzCiJk3PiDuIUH8D8kzLAiEAzNjP8SCOBph7YPtYDxxouetKkngtreHHuJuhlH6ztkAq5AIIVhACGgw3MjE5NDQ2OTcwMzEiDLwKXquu254RpITukCrBAtC6HK6Shi3XE%2BqtEF%2FcMA2Avs2za3zwVjvcbUhoyi1WiLCZhxMZSzqJahAzbxO034B1cmLDg51uS7E%2FfVOfCiPcSE4DBO8YlKBp%2FI1iuYqyrECXC9AFwbFObTOAi7LRkXfptM9x2DXwZaI5PNTI7mj7o5q4apTOvc4AOJvztJjDFmynKKqbYMRqvECfpaWns%2FqETDvJr9u6yzpnjE09rLUrFVUzHcjaAtPzMCzerISXPBjLkMLFMnAV2uFGx5qQvHN8VHMQx7GxTm8ZyVrrRDdQwAfZO8fAAUkbGKyuSkC0ZhI13CbjAtRWRuhw6MS%2Bab0PFDuIcdB%2B6PaxjCcNlTIKD%2B%2B0OKRdL5jpdkuE1wo5JXgGWeMPKDCyJ%2FiwobJELbkXAf5P5kUVB3Ymf8glgvmU1LPv9mBeg%2Fje%2BhfUR3tC2jCNuZ%2BzBjqyAhLOZzTWn4mMgorp%2FgE38bcMhw%2BZicubXHsewD4TJp5DgrMoYPOn%2FkIvCY5VFyCwQ51FU8%2FI8lDSYKbOYwAs5vSBnpaJaDOxyeL41vzH70NAvfAV%2FchdM8Z9GaQIuq6k0pBcEoF0yhMfy0SnKlqPmKehSWD2g%2B1BA68LQC27XfQUrK6e96G2%2B%2FOutl%2Fp1KLSRdi7%2BM%2BFRmky76gMYyPbpZXHP1Etthdxhdqy4ntHTum6GWu7DdkoCovXk6%2FCxJ7H%2BqK2CTiXMFCaYP0HyXMvEeTgsWYziszxSn16o1i5CfAZSHK%2BtVWKCR75vmUumjT9%2Fgvg9rHYUP1jWvPSto7X8cFFcPnxqk%2B1UG6x2GSCjPFHl11U%2BJq5kAq85QJfuSi6ih1Drw5hj7NWmlePrNPhOoNc4Q%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240611T054757Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA2QF2B3DDUYZBHAGQ%2F20240611%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Signature=afb2fac21f76e01af5b5f5105986c6420112cdd0e4d3fa3c8b173378b4f3186a', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -104,7 +108,7 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
+      company: 'Fiverr',
       position: 'Freelance Software Engineer',
       from: 'May 2023',
       to: 'Present',
@@ -120,18 +124,18 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: '',
+      body: '',
+      year: '',
+      link: '',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Plymouth',
+      degree: 'BSc.(Hons) Software Engineering',
+      from: '2020',
+      to: '2024',
     },
   ],
   publications: [
@@ -222,11 +226,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `<a 
       class="text-primary" href="https://github.com/dfanso/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >portfolio.dfanso.dev</a> ❤️`,
 
   enablePWA: true,
 };
