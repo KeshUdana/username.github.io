@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -79,8 +79,7 @@ const CONFIG = {
     email: 'leogavin123@outlook.com',
   },
   resume: {
-    fileUrl:
-      'https://dfanso.s3.ap-southeast-1.amazonaws.com/Leo+Gavin.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://dfanso.s3.ap-southeast-1.amazonaws.com/Leo+Gavin.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -142,8 +141,8 @@ const CONFIG = {
       journalName: '',
       authors: '',
       link: '',
-      description:
-        '' },
+      description: '',
+    },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
