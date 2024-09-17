@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'dfanso', // Your GitHub org/user name. (This is the only required config)
+    username: 'KeshUdana', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -26,10 +26,11 @@ const CONFIG = {
       manual: {
         // Properties for manually specifying projects
         projects: [
-          'DFanso/QuickQuest',
-          'DFanso/cine-magic-cinema',
-          'DFanso/B2B_Portal',
-          'DFanso/spring-boot-jwt-auth-api',
+          'KeshUdana/TravelSenseAlgo',
+          'KeshUdana/pokedex_api',
+          'KeshUdana/ModeCNNv1',
+          'KeshUdana/PlaneManagementSystem_2ndSem',
+          
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
@@ -38,20 +39,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Quick Quest',
+          title: '',
           description:
-            'A platform connecting customers with laborers based on location and service needs. It uses MongoDB for geospatial queries and SSE for real-time chat. Technologies: Nest.js, Next.js, Python, MongoDB, Docker, AWS, PayPal.',
+            '',
           imageUrl:
-            'https://dfanso.s3.ap-southeast-1.amazonaws.com/Frame+1474.ico',
-          link: 'DFanso/QuickQuest',
+            '',
+          link: '',
         },
         {
-          title: 'techxeed',
+          title: '',
           description:
-            'A platform to hire Developers. Made Using Next.js,Nest.js, Stripe for Payment handling and subscription handling.',
+            '',
           imageUrl:
-            'https://techxeed-frontend.vercel.app/_next/static/media/logo.2f950c74.svg',
-          link: 'https://techxeed-frontend.vercel.app/',
+            '',
+          link: '',
         },
       ],
     },
@@ -62,66 +63,62 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'leogavin',
-    twitter: 'dfansoo',
+    linkedin: 'Keshawa Udana',
+    twitter: '',
     mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: '@kshwa_udana',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
+    kaggle:'KeshawaUP',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'dfanso',
-    dev: 'dfanso',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
     website: '',
     phone: '',
-    email: 'leogavin123@outlook.com',
+    email: 'kesh.udana@gmail.com',
   },
   resume: {
     fileUrl: 'https://dfanso.s3.ap-southeast-1.amazonaws.com/Leo+Gavin.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
-    'Spring Boot',
+    'Python',
     'JavaScript',
+    'TypeScript',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'AWS',
-    'DevOps',
-    'CI/CD',
+    
     'Tailwind',
     'Next.js',
     'React.js',
-    'C#',
-    'ASP.Net',
-    'Jenkins',
+    'Git',
+    'AWS',
+
+    'MatPlotlib',
+    'Keras',
+    'TensorFlow',
+    
+    
+    
+    
   ],
   experiences: [
     {
-      company: 'Fiverr',
-      position: 'Freelance Software Engineer',
+      company: 'HeliosIT',
+      position: 'Founder/Software Developer',
       from: 'May 2023',
       to: 'Present',
-      companyLink: 'https://fiverr.com',
+      companyLink: 'https://github.com/organizations/HeliozIT',
     },
-    {
-      company: 'Melstasoft',
-      position: ' Intern Software Engineer',
-      from: 'May 2022',
-      to: 'August 2022',
-      companyLink: 'http://melstasoft.com/',
-    },
+    
   ],
   certifications: [
     {
@@ -133,10 +130,10 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'University of Plymouth',
-      degree: 'BSc.(Hons) Software Engineering',
+      institution: 'University of Westminster',
+      degree: 'BSc.(Hons) Computer Science',
       from: '2020',
-      to: '2024',
+      to: '2026',
     },
   ],
   publications: [
